@@ -1,0 +1,19 @@
+# Lokal (Docker Desktop Mac): mount "/" dengan propagation rslave gagal
+# ("path / is mounted on / but it is not a shared or slave mount").
+services:
+  monitor:
+    volumes: !override
+      - type: bind
+        source: /proc
+        target: /host/proc
+        read_only: true
+      - type: bind
+        source: /
+        target: /host/root
+        read_only: true
+      - type: bind
+        source: ${SYSTEM_MONITOR_DATA_PATH:-/var/lib/docker}
+        target: /host/data
+        read_only: true
+        bind:
+          propagation: rslave

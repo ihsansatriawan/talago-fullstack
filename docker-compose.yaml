@@ -1,0 +1,16 @@
+name: talago-dev
+
+services:
+  postgres:
+    image: postgres:16
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: talago
+      POSTGRES_PASSWORD: talago
+      POSTGRES_DB: talago
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

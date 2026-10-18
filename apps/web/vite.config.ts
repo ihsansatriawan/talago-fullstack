@@ -11,11 +11,11 @@ export default defineConfig({
     tailwindcss(),
   ],
   server: {
-    port: 5173,
+    port: 5174,
     proxy: {
       // Forward /api/* to the Hono API, stripping the /api prefix.
       "/api": {
-        target: "http://localhost:3000",
+        target: "http://localhost:3001",
         rewrite: (path) => path.replace(/^\/api/, ""),
       },
     },

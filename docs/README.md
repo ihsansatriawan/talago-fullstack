@@ -96,3 +96,8 @@ What was learned, observed, or still needs an answer. Link the related decisions
 | ----------------------------------------------------------- | -------------------------------- | -------- | -------- |
 | [0001](./product/0001-estate-assistant-direction.md)        | Estate assistant for Kompleks Dtalago | Decision | Accepted |
 | [0002](./product/0002-estate-assistant-open-questions.md)   | Estate assistant open questions  | Note     | —        |
+| [0003](./product/0003-residents-only-v1.md)                 | Residents only for v1            | Decision | Accepted |
+| [0004](./product/0004-resident-privacy.md)                  | Resident privacy                 | Decision | Accepted |
+| [0005](./product/0005-landed-housing-context.md)            | Landed housing context           | Decision | Accepted |
+| [0006](./product/0006-mock-data-sources.md)                 | Mock data sources for v1         | Decision | Accepted |
+| [0007](./product/0007-five-topics.md)                       | Five topics and eval suites      | Decision | Accepted |

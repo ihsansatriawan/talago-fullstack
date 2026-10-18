@@ -65,7 +65,7 @@ function Chat({ sessionId, initialMessages }: { sessionId: string; initialMessag
   return (
     <main className="flex min-w-0 flex-1 flex-col">
       <header className="flex h-12 items-center px-4 text-sm font-medium text-zinc-400">
-        Talago HR Assistant
+        Talago Estate Assistant
       </header>
 
       <ChatProvider controller={chat}>
